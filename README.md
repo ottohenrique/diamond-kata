@@ -7,6 +7,18 @@ correctly assert the expected behaviour of the application.
 The task is to get all the tests passing and have the code generate the expected string for a given
 single character input.
 
+Resolution
+----------
+
+This exercices asks for a 'odd number generator', where each number is the next row of a pyramid.
+
+I tried a simple resolution where the result for the first row is fixed ('A\n') and we calculates
+each iteration based on index of the letter in the range 'B'..x, where 'x' is the given input.
+
+The easy part of the challenge is once I resolved the pyramid ('A'..'J', by example) the second part is
+just a mirror of the result without the last element.
+
+
 Examples
 --------
 
